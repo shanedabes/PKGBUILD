@@ -13,7 +13,7 @@ makedepends=('make')
 url="https://github.com/jarun/Buku"
 license=('GPL3')
 source=($pkgname-$pkgver.tar.gz::https://codeload.github.com/jarun/Buku/tar.gz/v$pkgver)
-sha256sums=('08866f284a03454d9ee5bbb332da62e6ae1dfbe83ada75092453a7fd04fe62b3')
+sha256sums=('a9f33a18d3273e115b97208db9a3ba76637fade38d1947b5ae759f4ca14214ae')
 
 package() {
   cd "$srcdir/Buku-$pkgver"
